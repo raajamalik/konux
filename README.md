@@ -1,7 +1,26 @@
 Here is the approach with which I did:
 
-1. 	I thought of a UI first and then divided into multiple components. 
-2. 	I have divided our application into multiple pages in our website. So, if you see you 
+1. 	Originality of thoughts - First thing first, I can assure you about the originality of thoughts. What ever you see is my thinking. Be it UI, UX, interactions, colors and data representation. 
+
+2. 	A note on UI design 
+	- UI design's must be driven by the purpose. Becuase the purpose is to show data, I have come up with a simple and sober UI and colors whose highlights are to show data. Be it in the form of graph, dates, date ranges.
+	- I have taken an approach of component based design, where every element on UI is a component. This gives great advantage of reusing the component. With component based design the maintenance and change of appearance of component can be handled and reflected very quickly across the application because we only have to do it at one place and it will reflect at all places.
+	
+3. 	A note on Hardcoded values
+	- You may see some hard coded values here and there. I totally agree that these must be externalized and injected to our application to remove coupling so that we do not have to touch code to update these values. This goes true for text you see on screen, graph properties like height, width, colors, fills, margins etc.
+
+4. 	Applicaton structure:
+	root
+		- src - contains all source code
+		- cypress - contains all testcases. These are UI automation testcases.
+		- public - contains index.html and favicon.ico
+		
+	- I have divided our application into multiple pages in our website. so, pages is a directory I have kept inside src.
+	- src also contains a folder for all the reusable components.
+	
+5. 	I intentionlly used all those tehcnologies which you currently use in your project. React, Redux, TypeScript, D3, 	React-Redux, React-Bootstrap. Also, some new one like Cypress. I love cypress, it really simplifies UI automation 		testing which I stronly believe every UI engineer must write. 
+
+
 3. 	Think of a Model now, like you are trying to render a graph which is an array of objects and each objects has 
 	x & y cordinate. So, our application state is an array of objects having x and y properties. I don't know the actual usage of data but I can assume y being number of trains. Hence we name our model as TrainsFrequency.
 4. 	You now can create Application State file - AppState.tsx, which contains an array of TrainsFrequency. 
