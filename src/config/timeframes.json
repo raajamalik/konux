@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "value": -1,
+        "unit": "week",
+        "label": "All days"
+    },
+    {
+        "id": 2,
+        "value": 1,
+        "unit": "week",
+        "label": "Last week"
+    },
+    {
+        "id": 3,
+        "value": 2,
+        "unit": "week",
+        "label": "Last two weeks"
+    }
+]
