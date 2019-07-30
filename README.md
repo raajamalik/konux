@@ -30,11 +30,11 @@ Please go through these points before you get hold of source folder.
 
 8. 	Please forgive me for responsiveness. I could not make it responsive with Graph, but that is something I will learn 		fast. 
 
-9.      Loved and enjoyed D3 -
+9.      9.Loved and enjoyed D3 -
         I really liked working in D3 and I found that the code written in D3 can be quite messy and hard to understand. Although I have tried to make it easy with Inline comments. But I strongly believe that just by looking at the markup, one should be able to understand that this code renders line chart. 
         Unfortunately, other than component name nothing much is helping us do that. Though I had limited time, but I would have loved to break this line chart code in several other components like Line, Axis, Scale, Path, Circle, Ticks, Group, Canvas etc. Once we have such thing it will be really easy to work with it. 
 
-10.     Test cases - Though not extensive but yes tests all major functionality as per requirements. But yes, I agree that I could not test Line chart rendering. I thought that we can only assert the change of d attribute of path tag. This is something which I have o explore more.
+10.     10.Test cases - Though not extensive but yes tests all major functionality as per requirements. But yes, I agree that I could not test Line chart rendering. I thought that we can only assert the change of d attribute of path tag. This is something which I have o explore more.
 
 
 
