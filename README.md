@@ -20,7 +20,7 @@ Here is the approach with which I did:
 	
 5. 	I intentionlly used all those tehcnologies which you currently use in your project. React, Redux, TypeScript, D3, 	React-Redux, React-Bootstrap. Also, some new one like Cypress. I love cypress, it really simplifies UI automation 		testing which I stronly believe every UI engineer must write. 
 
-
+==================
 3. 	Think of a Model now, like you are trying to render a graph which is an array of objects and each objects has 
 	x & y cordinate. So, our application state is an array of objects having x and y properties. I don't know the actual usage of data but I can assume y being number of trains. Hence we name our model as TrainsFrequency.
 4. 	You now can create Application State file - AppState.tsx, which contains an array of TrainsFrequency. 
