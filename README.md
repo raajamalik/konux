@@ -14,7 +14,7 @@ Please go through these points before you get hold of source folder.
 		<ul>
 			<li>root</li>
 			<ul>
-				<li>- src - contains all source code<li>
+				<li>- src - contains all source code</li>
 				<li>- cypress - contains all testcases. These are UI automation testcases.</li>
 				<li>- public - contains index.html and favicon.ico</li>
 			</ul>
