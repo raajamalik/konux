@@ -14,33 +14,49 @@ Please go through these points before you get hold of source folder.
 	- You may see some hard coded values here and there. I totally agree that these must be externalized and injected to our application to remove coupling so that we do not have to touch code to update these values. This goes true for text you see on screen, graph properties like height, width, colors, fills, margins etc.
 
 4. 	### Applicaton structure:
-		<ul>
-			<li>root</li>
-			<ul>
-				<li>- src - contains all source code</li>
-				<li>- cypress - contains all testcases. These are UI automation testcases.</li>
-				<li>- public - contains index.html and favicon.ico</li>
-			</ul>
-		</ul>
-		
-		
-		
+		root
+		|---src - contains all source code
+			|---assets
+			|---components
+				|---charts
+				|---datetime
+				|---html
+				|---layout
+				|---message
+			|---config
+				|---timeframe.json
+			|---pages
+				|---trainFrequency
+					|---actions
+					|---components
+					|---reducers
+					|---types
+					|---constants.tsx
+		|---cypress - contains all testcases. These are UI automation testcases
+			|---fixtures
+			|---integrations
+				|---trainFrequency
+					|---AddPoint.spec.js
+					|---GETApi.spec.js
+					|---timeframe.spec.js
+					|---LineGraph.spec.js
+					|---DateRange.spec.js
+		|---public - contains index.html and favicon.ico
+			
 	- I have divided our application into multiple pages in our website. so, pages is a directory I have kept inside src.
 	- src also contains a folder for all the reusable components.
 	
 5. 	### Libraries and packages used: 
 		-I intentionlly used all those tehcnologies which you currently use in your project. 
-			<ul>
-				<li>React</li>
-				<li>Redux</li>
-				<li>TypeScript</li>
-				<li>D3</li>
-				<li>React-Redux</li>
-				<li>React-Thunk</li>
-				<li>React-Bootstrap</li>
-				<li>React-Datepicker</li>
-				<li>Cypress - Also, some new one like Cypress. I love cypress, it really simplifies UI automation 		testing which I stronly believe every UI engineer must write. You can explore it here - https://www.cypress.io/. There is a great training conducted by Cypress tomorrow, I am joining it.</li>
-			</ul>
+			-React
+			-Redux
+			-TypeScript
+			-D3
+			-React-Redux
+			-React-Thunk
+			-React-Bootstrap
+			-React-Datepicker
+			-Cypress - Also, some new one like Cypress. I love cypress, it really simplifies UI automation 		testing which I stronly believe every UI engineer must write. You can explore it here - https://www.cypress.io/. There is a great training conducted by Cypress tomorrow, I am joining it.
 
 6. 	### How to run 
 	- This project is bootstraped from create-react-app with --typescript flag. How to run -
