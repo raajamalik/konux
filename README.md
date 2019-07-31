@@ -25,7 +25,16 @@ Please go through these points before you get hold of source folder.
 	- I have divided our application into multiple pages in our website. so, pages is a directory I have kept inside src.
 	- src also contains a folder for all the reusable components.
 	
-5. 	I intentionlly used all those tehcnologies which you currently use in your project. React, Redux, TypeScript, D3, 	React-Redux, React-Bootstrap. Also, some new one like Cypress. I love cypress, it really simplifies UI automation 		testing which I stronly believe every UI engineer must write. You can explore it here - https://www.cypress.io/. There is a great training conducted by Cypress tomorrow, I am joining it. 
+5. 	<strong>Libraries and packages used: </strong>
+		-I intentionlly used all those tehcnologies which you currently use in your project. 
+			-React, 
+			-Redux, 
+			-TypeScript, 
+			-D3, 	
+			-React-Redux,
+			-Redux-Thunk
+			-React-Bootstrap. 
+			-Also, some new one like Cypress. I love cypress, it really simplifies UI automation 		testing which I stronly believe every UI engineer must write. You can explore it here - https://www.cypress.io/. There is a great training conducted by Cypress tomorrow, I am joining it. 
 
 6. 	This project is bootstraped from create-react-app with --typescript flag. How to run -
 	- Just clone and npm install
