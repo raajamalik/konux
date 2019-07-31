@@ -67,6 +67,8 @@ Please go through these points before you get hold of source folder.
 	npm run cypress
 	``` 
 	
+	Once cypress is run, you will see a cypress window as shown below. You just have to click Run all specs at the right top to run 	all tests. 	
+	
 7. 	### A look at the data 
 	- I assumed data(date and number) to be a train frequency on any given date. So, I named page and 		folders, models, components as Train Frequency.
 
