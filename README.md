@@ -27,14 +27,15 @@ Please go through these points before you get hold of source folder.
 	
 5. 	<strong>Libraries and packages used: </strong>
 		-I intentionlly used all those tehcnologies which you currently use in your project. 
-			-React, 
-			-Redux, 
-			-TypeScript, 
-			-D3, 	
-			-React-Redux,
-			-Redux-Thunk
-			-React-Bootstrap. 
-			-Also, some new one like Cypress. I love cypress, it really simplifies UI automation 		testing which I stronly believe every UI engineer must write. You can explore it here - https://www.cypress.io/. There is a great training conducted by Cypress tomorrow, I am joining it. 
+			<ul>
+				<li>React</li>
+				<li>Redux</li>
+				<li>TypeScript</li>
+				<li>D3</li>
+				<li>React-Redux</li>
+				<li>React-Thunk</li>
+				<li>React-Bootstrap</li>
+				<li>Cypress - Also, some new one like Cypress. I love cypress, it really simplifies UI automation 		testing which I stronly believe every UI engineer must write. You can explore it here - https://www.cypress.io/. There is a great training conducted by Cypress tomorrow, I am joining it.</li>
 
 6. 	This project is bootstraped from create-react-app with --typescript flag. How to run -
 	- Just clone and npm install
