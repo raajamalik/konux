@@ -11,10 +11,16 @@ Please go through these points before you get hold of source folder.
 	- You may see some hard coded values here and there. I totally agree that these must be externalized and injected to our application to remove coupling so that we do not have to touch code to update these values. This goes true for text you see on screen, graph properties like height, width, colors, fills, margins etc.
 
 4. 	Applicaton structure:
-		<ul><li>root</li></ul>
-		- src - contains all source code
-		- cypress - contains all testcases. These are UI automation testcases.
-		- public - contains index.html and favicon.ico
+		<ul>
+			<li>root</li>
+			<ul>
+				<li>- src - contains all source code<li>
+				<li>- cypress - contains all testcases. These are UI automation testcases.</li>
+				<li>- public - contains index.html and favicon.ico</li>
+			</ul>
+		</ul>
+		
+		
 		
 	- I have divided our application into multiple pages in our website. so, pages is a directory I have kept inside src.
 	- src also contains a folder for all the reusable components.
