@@ -1,9 +1,9 @@
 Please go through these points before you get hold of source folder.
 (For application running instructions, please follow #6)
 
-1. 	Originality of thoughts - First thing first, I can assure you about the originality of thoughts. What ever you see is my thinking. Be it UI, UX, interactions, colors and data representation. 
+1. 	###Originality of thoughts - First thing first, I can assure you about the originality of thoughts. What ever you see is my thinking. Be it UI, UX, interactions, colors and data representation. 
 
-2. 	A note on UI design 
+2. 	###A note on UI design 
 	- UI design's must be driven by the purpose. Becuase the purpose is to show data, I have come up with a simple and sober UI and colors which highlights the data. Be it in the form of graph, dates, date ranges.
 	- I have taken an approach of component based design, where every element on UI is a component. This gives great advantage of reusing the component. With component based design the maintenance and change of appearance of component can be handled and reflected very quickly across the application because we only have to do it at one place and it will reflect at all places.
 	
