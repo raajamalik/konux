@@ -80,6 +80,7 @@ Please go through these points before you get hold of source folder.
         Unfortunately, other than component name nothing much is helping us do that. Though I had limited time, but I would have loved to break this line chart code in several other components like Line, Axis, Scale, Path, Circle, Ticks, Group, Canvas etc. Once we have such thing it will be really easy to work with it. 
 
 10.	### Test cases - 
+	- Test cases have used BDD and TDD assertions.
 	- Though not extensive but yes tests all major functionality as per requirements. But yes, I agree that I could not test Line chart rendering. I thought that we can only assert the change of d attribute of path tag. This is something which I have o explore more.
 
 
