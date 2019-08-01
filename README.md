@@ -47,7 +47,7 @@ Please go through these points before you get hold of source folder.
 	- src also contains a folder for all the reusable components.
 	
 5. 	### Libraries and packages used: 
-	I intentionlly used all those tehcnologies which you currently use in your project. 
+	-I intentionlly used all those tehcnologies which you currently use in your project. 
 			-React
 			-Redux
 			-TypeScript
