@@ -56,7 +56,10 @@ Please go through these points before you get hold of source folder.
 			-React-Thunk
 			-React-Bootstrap
 			-React-Datepicker
-			-Cypress - Also, some new one like Cypress. I love cypress, it really simplifies UI automation 		testing which I stronly believe every UI engineer must write. You can explore it here - https://www.cypress.io/. There is a great training conducted by Cypress tomorrow, I am joining it.
+			-Cypress - Also, some new one like Cypress. 
+				- I love cypress, it really simplifies UI automation testing 
+				- I stronly believe every UI engineer must write. 
+				- You can explore it here - https://www.cypress.io/. 
 
 6. 	### How to run 
 	- This project is bootstraped from create-react-app with --typescript flag. How to run -
