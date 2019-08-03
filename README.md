@@ -73,10 +73,10 @@ Please go through these points before you get hold of source folder.
 	Once cypress is run, you will see a cypress window. You just have to click Run all specs at the right top to run all tests. 	
 	
 7. 	### A look at the data 
-	- I assumed data(date and number) to be a train frequency on any given date. So, I named page and 		folders, models, components as Train Frequency.
+	- I assumed data(date and number) to be a train frequency on any given date. So, I named page and folders, models, components as Train Frequency.
 
 8. 	### Please forgive me for responsiveness. 
-	- I could not make it responsive with Graph, but that is something I will learn 		fast. 
+	- I could not make it responsive with Graph, but that is something I will learn fast. 
 
 9.	### Loved and enjoyed D3 (But I agree that the graph is very basic and would need more effort to be helpful)
         - Please note that all data preparation is done with D3 and rendering is done with React.
@@ -98,6 +98,15 @@ Please go through these points before you get hold of source folder.
 10.	### Test cases - 
 	- Test cases have used BDD and TDD assertions.
 	- Though not extensive but yes tests all major functionality as per requirements. But yes, I agree that I could not test Line chart rendering. I thought that we can only assert the change of d attribute of path tag. This is something which I have o explore more.
+
+11. 	### Made Timeframe scalable -
+	- Though you see only three timeframes which were part of problem statement, I implemented in a way that we can anytime 
+	add or remove timeframes from config/timeframe.json and timeframe component would render and filter graph data. Only 
+	thing you have to make sure that you have to provide correct data in timeframe.json. It takes four fields:
+		- id - acts as a unique key
+		- label - acts as a display value
+		- value - a numeric value
+		- unit - have to be one of the value which is a taken from moment.js like "days", "weeks", "months"
 
 
 
