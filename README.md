@@ -99,7 +99,7 @@ Please go through these points before you get hold of source folder.
 	- Test cases have used BDD and TDD assertions.
 	- Though not extensive but yes tests all major functionality as per requirements. But yes, I agree that I could not test Line chart rendering. I thought that we can only assert the change of d attribute of path tag. This is something which I have o explore more.
 
-11. 	### Made Timeframe scalable -
+11.	### Made Timeframe scalable -
 	- Though you see only three timeframes which were part of problem statement, I implemented in a way that we can anytime 
 	add or remove timeframes from config/timeframe.json and timeframe component would render and filter graph data. Only 
 	thing you have to make sure that you have to provide correct data in timeframe.json. It takes four fields:
