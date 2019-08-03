@@ -79,6 +79,7 @@ Please go through these points before you get hold of source folder.
 	- I could not make it responsive with Graph, but that is something I will learn 		fast. 
 
 9.	### Loved and enjoyed D3 (But I agree that the graph is very basic and would need more effort to be helpful)
+        - Please note that all data preparation is done with D3 and rendering is done with React.
         - I really liked working in D3
 	- But, I found that the code written in D3 can be quite messy and hard to understand. 
 	- Although I have tried to make it easy with Inline comments. 
