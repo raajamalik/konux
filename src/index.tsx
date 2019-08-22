@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { Store } from 'redux';
 import { getTrainFrequenciesActionCreator } from './pages/train-frequency/actions/ActionCreator';
-
+import { BrowserRouter as Router } from 'react-router-dom';
 import AppState  from './AppState';
 import configureStore from './store';
 import './index.css';
@@ -25,7 +25,9 @@ components in the application without passing it explicitly
 const Root: React.FunctionComponent<Props> = props => {
   return (
     <Provider store={props.store}>
-      <App />
+      <Router>
+        <App />
+      </Router>
     </Provider>
   );
 };

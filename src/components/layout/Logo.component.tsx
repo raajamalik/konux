@@ -10,13 +10,13 @@ interface Props{
  */
 export default class LogoComponent extends Component<Props> {
 
+    /**<img 
+    src={this.props.src}  
+    className="logo"
+    alt="KONUX Logo"/> */
     render() {
         return (
-            
-                <img 
-                src={this.props.src}  
-                className="logo"
-                alt="KONUX Logo"/>
+            <h5>A case study with React, Redux, TypeScript, D3, Cypress...</h5>
             
         )
     }

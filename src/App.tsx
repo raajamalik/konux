@@ -5,6 +5,8 @@ import TrainFrequencyComponent from './pages/train-frequency/components/TrainFre
 import { Container, Row, Col } from 'react-bootstrap';
 import HeaderComponent from './components/layout/Header.container';
 import FooterComponent from './components/layout/Footer.container';
+import { Route } from 'react-router-dom';
+import AddFrequencyComponent from './pages/train-frequency/components/AddFrequency.component';
 
 const App: React.FunctionComponent<{}> = () => {
   return (
@@ -17,7 +19,8 @@ const App: React.FunctionComponent<{}> = () => {
         </Row>
         <Row>
           <Col sm={12}>
-            <TrainFrequencyComponent/>
+            <Route exact={true} path="/" component={TrainFrequencyComponent}/>
+            <Route path="/addFrequency" component={AddFrequencyComponent}/>
           </Col>
         </Row>
         <Row>

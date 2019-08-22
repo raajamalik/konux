@@ -15,10 +15,10 @@ export default class HeaderContainer extends Component {
             <div className="header">
                 <Container>
                     <Row>
-                        <Col md={2}>
+                        <Col md={"auto"}>
                             <LogoComponent src={konux}/>
                         </Col>
-                        <Col xs md={4}></Col>
+                        <Col xs md={2}></Col>
                         <Col xs md={"auto"}></Col>
                     </Row>
                 </Container>
